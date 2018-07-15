@@ -1,0 +1,5 @@
+1、在eclipse的安装目录下的dropins目录下面建立一个jetty.link文件
+2、文件中内容：
+path=d:\\eclipse\\plugins\\eclipse_plugins\\jetty
+这个路径其实就是插件包的路径，看自己放在哪
+3、重启eclipse即可
