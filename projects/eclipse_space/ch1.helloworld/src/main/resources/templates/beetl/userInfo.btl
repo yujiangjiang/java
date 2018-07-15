@@ -1,0 +1,9 @@
+<html>
+<body>
+user.name=${user.name}
+<p/>
+user.id=${user.id}
+@var a=1;
+a=${a};
+</body>
+</html>

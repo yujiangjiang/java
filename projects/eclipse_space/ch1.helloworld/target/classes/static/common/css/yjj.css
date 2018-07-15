@@ -1,0 +1,21 @@
+.head{
+	height:100px;
+	width:100%;
+	margin:0;
+	border:1px solid black;
+	
+}
+
+.main-wrapper{
+	height:80%;
+	width:100%;
+	margin:0;
+	border:1px solid black;
+	text-align:left;
+}
+.footer{
+	height:50px;
+	width:100%;
+	margin:0;
+	text-align:center;
+}

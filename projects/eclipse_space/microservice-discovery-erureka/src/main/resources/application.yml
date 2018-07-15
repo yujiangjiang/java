@@ -1,0 +1,18 @@
+server:
+  port: 8761
+spring:
+  application:
+    name: microservice-discovery-eureha
+eureka:
+  client:
+    #默认开启
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://192.168.1.23:8762/eureka/
+security:
+  basic:
+    enabled: true
+  user:
+    name: admin
+    password: admin

@@ -1,0 +1,17 @@
+server:
+  port: 8082
+user:
+  userServiceUrl: http://localhost:8081/
+spring:
+  application:
+    name: microservice-consumer
+eureka:
+  client:
+    serviceUrl:
+      #8761需要认证，8762不需要认证
+      defaultZone: http://admin:admin@localhost:8761/eureka/,http://192.168.1.23:8762/eureka/
+    instance:
+    #表示将该服务的ip地址注册到eureka server,如果为false表将该服务所在主机的hostname注册到eureka server
+      prefer-ip-address: true
+    healthcheck:
+      enable: true  
